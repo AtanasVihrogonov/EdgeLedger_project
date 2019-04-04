@@ -44,6 +44,11 @@ p {
   color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .l-heading {
   font-size: 4rem;
   margin-bottom: 0.75rem;
@@ -105,13 +110,15 @@ p {
   top: 0;
   color: #fff;
   position: sticky;
-  z-index: 1;
-  padding: 1rem;
+  z-index: 1;      
+
+  padding: 1r      
+
 }
 
 #navbar ul {
   display: flex;
-  align-items: center;
+  align-items: center;/* ========== SECTION: CLIENTS ========== */
   list-style: none;
 }
 
@@ -196,7 +203,28 @@ p {
   width: 60%;
 }
 
+/* ========== SECTION: CONTACT ========== */
+#contact {
+  display: flex;
+}
 
+#contact .map, #contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-group .contact-form {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
 
 
 
