@@ -102,7 +102,7 @@ p {
   border-bottom: #444 dotted 1px;
 }
 
-/* ========== UTILITY CLASSES ========== */
+/* ========== NAVBAR ========== */
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -111,14 +111,12 @@ p {
   color: #fff;
   position: sticky;
   z-index: 1;      
-
-  padding: 1r      
-
+  padding: 1rem;    
 }
 
 #navbar ul {
   display: flex;
-  align-items: center;/* ========== SECTION: CLIENTS ========== */
+  align-items: center;
   list-style: none;
 }
 
@@ -162,13 +160,10 @@ p {
 #what .items {
   display: flex;
   padding: 1rem;
-  flex: 1;
-  flex-basis: 50%;
 }
 
 #what .items .item {
   flex: 1;
-  flex-basis: 50%;
   text-align: center;
   padding: 1rem;
 }
@@ -187,6 +182,7 @@ p {
 
 #who div {
   flex: 1;
+  flex-basis: 50%;
 }
 #who .who-img {
   background: url('../img/people.jpg') no-repeat center center/cover; 
@@ -210,6 +206,7 @@ p {
 
 #contact .map, #contact .contact-form {
   flex: 1;
+  flex-basis: 50%;
 }
 
 #contact .contact-group .contact-form {
