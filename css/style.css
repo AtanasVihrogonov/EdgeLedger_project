@@ -204,9 +204,9 @@ p {
   display: flex;
 }
 
-#contact .map, #contact .contact-form {
+#contact .map, #contact .contact-form  {
   flex: 1;
-  flex-basis: 50%;
+  flex-basis: 10%;
 }
 
 #contact .contact-group .contact-form {
